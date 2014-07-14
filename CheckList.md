@@ -18,4 +18,6 @@ Strikethough if completed
 ###Arranging buckets/Mugs/WaterBottles
 ###Stationary items/Markers/pencils/
 ###Media Publicity Team
-###Setting up class room
+###Setting up class room , arranging speakers
+###Sending invitation to speakrs
+###Hosting speakers detail in camp website
