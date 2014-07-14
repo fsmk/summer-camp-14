@@ -4,8 +4,7 @@ Strikethough if completed
 ###T Shirt Design 
 ###T Shirt Printing
 ###Camp Manual
-###Hacker Kit - 
-  >Distro, Stickers, Badges
+###Hacker Kit -Distro, Stickers, Badges
 ###Posters and Banners
 ###Publicity Online and Print Media
 ###Blogging and Tweeting 
