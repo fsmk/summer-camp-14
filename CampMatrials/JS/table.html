@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+    <input type="text" id="numberInput"></input>
+    <button id="generateButton">Generate</button>
+    <table id="mtable" border="1"></table>
+    <script>
+    function generateMathematicalTable(inputNumber) {
+        var createCell = function(text) {
+            var cell = document.createElement('td');
+            cell.innerHTML = text;
+            return cell;
+        }
+        var createRow = function(inputNumber, i) {
+            var trElement = document.createElement('tr');
+            if ( i % 2 == 0)
+                trElement.className = 'even';
+            else
+                trElement.className = 'odd';
+            trElement.appendChild(createCell(inputNumber));
+            trElement.appendChild(createCell(i));
+            trElement.appendChild(createCell(inputNumber*i));
+            return trElement;
+        }
+        var tableElement = document.getElementById('mtable');
+        tableElement.innerHTML = '';
+        for (var i = 1; i<= 10; i++) {
+            tableElement.appendChild(createRow(inputNumber, i));
+        }
+    }
+
+    var buttonElement = document.getElementById('generateButton');
+    buttonElement.addEventListener('click', function() {
+        generateMathematicalTable(document.getElementById('numberInput').value);
+    });
+
+    var numberInputElement = document.getElementById('numberInput');
+    numberInputElement.addEventListener('keypress', function(evt) {
+        if(evt.keyCode == 13) {
+            generateMathematicalTable(document.getElementById('numberInput').value);
+        }
+    });
+    </script>
+</body>
+</html>

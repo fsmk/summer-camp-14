@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script>
+    var listOfLinks = [
+        {'name': 'Google', 'url': 'http://www.google.com/'},
+        {'name': 'Bing', 'url': 'http://www.bing.com/'},
+        {'name': 'Yahoo', 'url': 'http://www.yahoo.com/'},
+    ];
+
+    function renderLinks() {
+        for(var i = 0; i < listOfLinks.length; i++) {
+            var anchorElement = document.createElement('a');
+            anchorElement.setAttribute('href', listOfLinks[i]['url']);
+            var linksElement = document.getElementById('links');
+            anchorElement.innerHTML = listOfLinks[i]['name'];
+            linksElement.appendChild(anchorElement);
+        }
+    }
+    </script>
+</head>
+<body>
+    <h1>Links</h1>
+    <div id="links"></div>
+    <script>
+    renderLinks();
+    </script>
+</body>
+</html>
