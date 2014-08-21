@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" dir="ltr" lang="EN"><head profile="http://gmpg.org/xfn/11">
+<head>
+<title>
+FSMK Summer Camp 14 Infographics
+</title>
+<script type="text/javascript" src="http://mbostock.github.com/d3/d3.min.js"></script>
+<script type="text/javascript">
+sexratioData = [{"label":"Male","value":"88"},
+				{"label":"Female","value":"90"}];
+
+collegewiseData = [{"label":"adichunchanagiri institute of technology","value":"1"},
+				{"label":"Atria Institute of Technology","value":"3"},
+				{"label":"bangalore institute of technology","value":"1"},
+				{"label":"Bmsit","value":"9"},
+				{"label":"BNMIT","value":"1"},
+				{"label":"CBIT Kolar","value":"1"},
+				{"label":"Dayananda Sagar College of Engineering","value":"12"},
+				{"label":"Dr Ambedkar Institute of Technology","value":"10"},
+				{"label":"GEC Hassan","value":"13"},
+				{"label":"GMIT Mandya","value":"3"},
+				{"label":"JVIT","value":"2"},
+				{"label":"MS Engineering college","value":"1"},
+				{"label":"MSRIT","value":"3"},
+				{"label":"MVJ College of Engineering","value":"3"},
+				{"label":"NA","value":"2"},
+				{"label":"PACE Mangalore","value":"23"},
+				{"label":"PESCE Mandya","value":"9"},
+				{"label":"PESIT","value":"7"},
+				{"label":"PESIT-BSC","value":"2"},
+				{"label":"Rajeev Institute of Technology","value":"2"},
+				{"label":"RLJIT","value":"11"},
+				{"label":"RNSIT","value":"1"},
+				{"label":"SJBIT","value":"12"},
+				{"label":"Sreenivas school of Engineering,Mangalore","value":"1"},
+				{"label":"Sri Jayachamarajendra College of Engineering, Mysore","value":"1"},
+				{"label":"Sri Venkateshwara College of Engineering","value":"6"},
+				{"label":"The National institute of engineering mysore","value":"1"},
+				{"label":"The Oxford College of Engineering","value":"1"},
+				{"label":"U V C E","value":"1"},
+				{"label":"VCET Puttur","value":"33"},
+				{"label":"Vidya Vikas Institute of Technology","value":"1"},
+				{"label":"Viswajyothi College of Engineering and Technology,Vazhakulam","value":"1"}];
+
+citywiseData = [{"label":"Bangalore","value":"88"},
+				{"label":"Hassan","value":"15"},
+				{"label":"Chikkamagaluru","value":"1"},
+				{"label":"Mangalore","value":"26"},
+				{"label":"Puttur","value":"31"},
+				{"label":"Mandya","value":"12"},
+				{"label":"Mysore","value":"3"},
+				{"label":"Vazhakulam","value":"1"},
+				{"label":"Kolar","value":"1"}];
+yearwiseData = [{"label":"1","value":"16"},
+				{"label":"2","value":"87"},
+				{"label":"3","value":"72"},
+				{"label":"4","value":"3"}];
+departmentwiseData = [{"label":"CSE","value":"131"},
+				{"label":"ECE","value":"10"},
+				{"label":"ISE","value":"32"},
+				{"label":"Civil","value":"1"},
+				{"label":"TCE","value":"1"},
+				{"label":"Medical Electronics","value":"1"},
+				{"label":"EEE","value":"2"}];
+existingGLUGwiseData = [{"label":"Students where GLUG existed","value":"139"},
+				{"label":"Students where there was no GLUG","value":"39"}];
+</script>
+<style type="text/css">
+.slice text {
+ font-size: 8pt;
+ font-family: Arial;
+}  
+
+.legend rect {
+ fill:white;
+ stroke:black;
+ opacity:0.8; 
+}
+.infographic{
+	width: 500px;
+	float: left;
+}
+</style>
+
+</head>
+
+<body>
+				<h1>This is infographics related to FSMK Summer Camp 14</h1>
+				<div class="infographic">
+					<h3>College Wise data in FSMK SC14</h3>
+					<div id="collegewiseGraph"></div>
+				</div>
+				<div class="infographic">
+					<h3>Department Wise data in FSMK SC14</h3>
+					<div id="departmentwiseGraph"></div>
+				</div>
+				<div class="infographic">
+					<h3>Sex Ratio in FSMK SC14</h3>
+					<div id="sexratioGraph"></div>
+				</div>
+				<div class="infographic">
+					<h3>City Wise data in FSMK SC14</h3>
+					<div id="citywiseGraph"></div>
+				</div>
+				<div class="infographic">
+					<h3>Year Wise data in FSMK SC14</h3>
+					<div id="yearwiseGraph"></div>
+				</div>
+				<div class="infographic">
+					<h3>Students from existing GLUGs of FSMK data in FSMK SC14</h3>
+					<div id="existingGLUGwiseGraph"></div>
+				</div>
+				
+				<script type="text/javascript">
+				    function drawPie(data, idToDraw){
+				    	var w = 500,                        //width
+				    h = 300,                            //height
+				    r = 100,                            //radius
+				    color = d3.scale.category20c();     //builtin range of colors
+				    
+				    var vis = d3.select(idToDraw)
+				        .append("svg:svg")              //create the SVG element inside the <body>
+				        .data([data])                   //associate our data with the document
+				        .attr("width", w)           //set the width and height of our visualization (these will be attributes of the <svg> tag
+				        .attr("height", h)
+				        .append("svg:g")                //make a group to hold our pie chart
+				        .attr("transform", "translate(" + (r+5) + "," + (r+5) + ")")    //move the center of the pie chart from 0, 0 to radius, radius
+
+				    var arc = d3.svg.arc()              //this will create <path> elements for us using arc data
+				        .outerRadius(r);
+
+				    var pie = d3.layout.pie()           //this will create arc data for us given a list of values
+				        .value(function(d) { return d.value; });    //we must tell it out to access the value of each element in our data array
+
+				    var arcs = vis.selectAll("g.slice")     //this selects all <g> elements with class slice (there aren't any yet)
+				        .data(pie)                          //associate the generated pie data (an array of arcs, each having startAngle, endAngle and value properties) 
+				        .enter()                            //this will create <g> elements for every "extra" data element that should be associated with a selection. The result is creating a <g> for every object in the data array
+				            .append("svg:g")                //create a group to hold each slice (we will have a <path> and a <text> element associated with each slice)
+				                .attr("class", "slice");    //allow us to style things in the slices (like text)
+
+				        arcs.append("svg:path")
+				                .attr("fill", function(d, i) { return color(i); } ) //set the color for each slice to be chosen from the color function defined above
+				                .attr("d", arc);                                    //this creates the actual SVG path using the associated data (pie) with the arc drawing function
+
+				        arcs.append("svg:text")                                     //add a label to each slice
+				                .attr("transform", function(d) {                    //set the label's origin to the center of the arc
+				                //we have to make sure to set these before calling arc.centroid
+				                d.innerRadius = 0;
+				                d.outerRadius = r;
+				                return "translate(" + arc.centroid(d) + ")";        //this gives us a pair of coordinates like [50, 50]
+				            })
+				            .attr("text-anchor", "end")                          //center the text on it's origin
+				            .text(function(d, i) { return data[i].label; });        //get the label from our original data array
+				    }
+				    drawPie(sexratioData,"#sexratioGraph");
+				    drawPie(collegewiseData,"#collegewiseGraph");
+				    drawPie(existingGLUGwiseData,"#existingGLUGwiseGraph");
+				    drawPie(yearwiseData,"#yearwiseGraph");
+				    drawPie(departmentwiseData,"#departmentwiseGraph");
+				    drawPie(citywiseData,"#citywiseGraph");
+				</script>
+
+
+</body>
+</html>
