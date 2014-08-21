@@ -1,0 +1,179 @@
+Id,Gender,College,Department,City,GLUG,Year
+1,Male,PACE Mangalore,CSE,Mangalore,Yes,3
+2,Male,PACE Mangalore,ISE,Mangalore,Yes,3
+3,Male,GEC Hassan,CSE,Hassan,Yes,2
+4,Female,GEC Hassan,CSE,Hassan,Yes,2
+5,Female,GEC Hassan,CSE,Hassan,Yes,2
+6,Female,GEC Hassan,CSE,Hassan,Yes,2
+7,Female,GEC Hassan,CSE,Hassan,Yes,2
+8,Female,PESIT,CSE,Bangalore,Yes,2
+9,Male,PESIT,CSE,Bangalore,Yes,2
+10,Female,VCET Puttur,CSE,Puttur,Yes,2
+11,Female,VCET Puttur,CSE,Puttur,Yes,2
+12,Male,Dayananda Sagar College of Engineering,ISE,Bangalore,Yes,1
+13,Male,GEC Hassan,CSE,Hassan,Yes,2
+14,Male,PESIT,CSE,Bangalore,Yes,2
+15,Female,VCET Puttur,CSE,Puttur,Yes,3
+16,Female,VCET Puttur,CSE,Puttur,Yes,3
+17,Male,VCET Puttur,CSE,Puttur,Yes,2
+18,Female,VCET Puttur,CSE,Puttur,Yes,3
+19,Male,VCET Puttur,CSE,Puttur,Yes,2
+20,Female,VCET Puttur,CSE,Puttur,Yes,3
+21,Female,VCET Puttur,CSE,Puttur,Yes,3
+22,Male,VCET Puttur,ISE,Puttur,Yes,3
+23,Male,VCET Puttur,ISE,Puttur,Yes,3
+24,Male,VCET Puttur,ISE,Puttur,Yes,3
+25,Male,BMSIT,CSE,Bangalore,Yes,2
+26,Male,VCET Puttur,CSE,Puttur,Yes,3
+27,Male,VCET Puttur,ECE,Puttur,Yes,3
+28,Male,PACE Mangalore,CSE,Mangalore,Yes,2
+29,Male,VCET Puttur,ISE,Puttur,Yes,2
+30,Female,Rajeev Institute of Technology,ISE,Hassan,No,2
+31,Female,Rajeev Institute of Technology,ISE,Hassan,No,2
+32,Male,VCET Puttur,ECE,Mangalore,Yes,3
+33,Male,VCET Puttur,ECE,Mangalore,Yes,3
+34,Female,adichunchanagiri institute of technology,ISE,Chikkamagaluru,No,2
+35,Male,The National institute of engineering mysore,ISE,Mysore,No,2
+36,Male,The Oxford College of Engineering,ISE,Bangalore,Yes,2
+37,Male,NA,CSE,Bangalore,No,1
+38,Male,Dayananda Sagar College of Engineering,ISE,Bangalore,Yes,2
+39,Male,VCET Puttur,ECE,Puttur,Yes,3
+40,Female,Dayananda Sagar College of Engineering,ISE,Bangalore,Yes,2
+41,Male,VCET Puttur,CSE,Puttur,Yes,3
+42,Male,"Sreenivas school of Engineering,Mangalore",CSE,Mangalore,No,3
+43,Male,VCET Puttur,CSE,Puttur,Yes,3
+44,Male,GEC Hassan,CSE,Hassan,Yes,2
+45,Female,VCET Puttur,CSE,Puttur,Yes,2
+46,Female,PESIT,CSE,Bangalore,Yes,2
+47,Female,VCET Puttur,CSE,Puttur,Yes,2
+48,Male,VCET Puttur,CSE,Puttur,Yes,2
+49,Male,VCET Puttur,ECE,Puttur,Yes,3
+50,Female,BNMIT,CSE,Bangalore,Yes,2
+51,Male,VCET Puttur,CSE,Puttur,Yes,2
+52,Male,VCET Puttur,CSE,Puttur,Yes,2
+53,Female,VCET Puttur,CSE,Puttur,Yes,3
+54,Female,VCET Puttur,CSE,Puttur,Yes,3
+55,Female,VCET Puttur,CSE,Puttur,Yes,3
+56,Female,VCET Puttur,CSE,Puttur,Yes,3
+57,Female,VCET Puttur,CSE,Puttur,Yes,3
+58,Female,GEC Hassan,CSE,Hassan,Yes,2
+59,Male,Dayananda Sagar College of Engineering,ECE,Bangalore,Yes,2
+60,Male,bangalore institute of technology,Civil,Bangalore,No,2
+61,Male,PACE Mangalore,ISE,Mangalore,Yes,2
+62,Female,Dr Ambedkar Institute of Technology,CSE,Bangalore,Yes,3
+63,Male,PACE Mangalore,CSE,Mangalore,Yes,2
+64,Female,PACE Mangalore,CSE,Mangalore,Yes,2
+65,Male,PACE Mangalore,CSE,Mangalore,Yes,2
+66,Female,PACE Mangalore,CSE,Mangalore,Yes,2
+67,Female,PACE Mangalore,CSE,Mangalore,Yes,2
+68,Male,PACE Mangalore,CSE,Mangalore,Yes,2
+69,Male,PACE Mangalore,CSE,Mangalore,Yes,2
+70,Female,Dayananda Sagar College of Engineering,CSE,Bangalore,Yes,1
+71,Male,Dayananda Sagar College of Engineering,ISE,Bangalore,Yes,2
+72,Male,PACE Mangalore,ISE,Mangalore,Yes,2
+73,Female,PESCE Mandya,CSE,Mandya,Yes,1
+74,Male,PACE Mangalore,CSE,Mangalore,Yes,2
+75,Male,PACE Mangalore,CSE,Mangalore,Yes,2
+76,Female,Dr Ambedkar Institute of Technology,CSE,Bangalore,Yes,3
+77,Female,PACE Mangalore,CSE,Mangalore,Yes,2
+78,Male,RLJIT,CSE,Bangalore,No,3
+79,Male,SJBIT,ISE,Bangalore,Yes,1
+80,Male,Atria Institute of Technology,ISE,Bangalore,No,3
+81,Female,GEC Hassan,CSE,Hassan,Yes,2
+82,Female,Vidya Vikas Institute of Technology,CSE,Mysore,No,1
+83,Female,VCET Puttur,CSE,Puttur,Yes,3
+84,Female,BMSIT,CSE,Bangalore,Yes,1
+85,Female,GEC Hassan,CSE,Hassan,Yes,2
+86,Male,PESIT,CSE,Bangalore,Yes,2
+87,Female,Dr Ambedkar Institute of Technology,CSE,Bangalore,Yes,3
+88,Male,Sri Venkateshwara College of Engineering,CSE,Bangalore,Yes,2
+89,Male,Sri Venkateshwara College of Engineering,CSE,Bangalore,Yes,2
+90,Male,Sri Venkateshwara College of Engineering,CSE,Bangalore,Yes,2
+91,Male,BMSIT,CSE,Bangalore,Yes,2
+92,Female,Dr Ambedkar Institute of Technology,CSE,Bangalore,Yes,3
+93,Male,Dr Ambedkar Institute of Technology,CSE,Bangalore,Yes,3
+94,Female,Dr Ambedkar Institute of Technology,CSE,Bangalore,Yes,3
+95,Male,VCET Puttur,CSE,Puttur,Yes,3
+96,Female,MVJ College of Engineering,CSE,Bangalore,No,2
+97,Male,MVJ College of Engineering,CSE,Bangalore,No,2
+98,Female,MVJ College of Engineering,CSE,Bangalore,No,2
+99,Female,SJBIT,CSE,Bangalore,Yes,2
+100,Male,SJBIT,CSE,Bangalore,Yes,2
+101,Male,PACE Mangalore,CSE,Mangalore,Yes,3
+102,Male,"Viswajyothi College of Engineering and Technology,Vazhakulam",CSE,Vazhakulam,No,2
+103,Female,NA,ECE,Bangalore,No,1
+104,Female,Dr Ambedkar Institute of Technology,CSE,Bangalore,Yes,3
+105,Male,U V C E,ISE,Bangalore,No,2
+106,Male,BMSIT,CSE,Bangalore,Yes,1
+107,Female,BMSIT,CSE,Bangalore,Yes,1
+108,Male,Atria Institute Of Technology,ISE,Bangalore,No,3
+109,Female,SJBIT,CSE,Bangalore,No,2
+110,Male,PACE Mangalore,CSE,Mangalore,Yes,3
+111,Male,Dayananda Sagar College of Engineering,Medical Electronics,Bangalore,Yes,1
+112,Female,PESCE Mandya,ISE,Mandya,Yes,3
+113,Female,PESCE Mandya,CSE,Mandya,Yes,1
+114,Male,Sri Venkateshwara College of Engineering,ISE,Bangalore,Yes,2
+115,Female,GMIT Mandya,CSE,Mandya,No,3
+116,Female,GMIT Mandya,CSE,Mandya,No,3
+117,Female,SJBIT,CSE,Bangalore,Yes,2
+118,Female,SJBIT,CSE,Bangalore,Yes,2
+119,Female,Sri Venkateshwara College of Engineering,CSE,Bangalore,Yes,1
+120,Female,Sri Venkateshwara College of Engineering,CSE,Bangalore,Yes,1
+121,Female,PESCE Mandya,CSE,Mandya,Yes,3
+122,Female,PESCE Mandya,CSE,Mandya,Yes,3
+123,Female,GEC Hassan,CSE,Hassan,Yes,3
+124,Female,GMIT Mandya,CSE,Mandya,No,3
+125,Female,RLJIT,CSE,Bangalore,No,3
+126,Male,Dayananda Sagar College of Engineering,EEE,Bangalore,Yes,2
+127,Male,PESIT,CSE,Bangalore,Yes,3
+128,Male,PESIT,CSE,Bangalore,Yes,3
+129,Female,RLJIT,CSE,Bangalore,No,3
+130,Male,CBIT Kolar,ECE,Kolar,No,3
+131,Female,GEC Hassan,CSE,Hassan,Yes,3
+132,Male,PACE Mangalore,CSE,Mangalore,Yes,3
+133,Male,PACE Mangalore,CSE,Mangalore,Yes,3
+134,Female,RLJIT,CSE,Bangalore,No,3
+135,Female,PACE Mangalore,CSE,Mangalore,Yes,2
+136,Male,Dayananda Sagar College Of Engineering,ISE,Bangalore,Yes,2
+137,Female,RLJIT,CSE,Bangalore,No,2
+138,Female,PACE Mangalore,CSE,Mangalore,Yes,3
+139,Female,PACE Mangalore,ISE,Mangalore,Yes,3
+140,Male,Dayananda Sagar College of Engineering,ECE,Bangalore,Yes,2
+141,Female,RLJIT,CSE,Bangalore,No,3
+142,Male,MS Engineering college,ISE,Bangalore,No,3
+143,Female,PESCE Mandya,ISE,Mandya,Yes,3
+144,Male,SJBIT,CSE,Bangalore,Yes,2
+145,Male,SJBIT,CSE,Bangalore,Yes,2
+146,Male,SJBIT,CSE,Bangalore,Yes,2
+147,Female,SJBIT,CSE,Bangalore,Yes,2
+148,Male,SJBIT,ISE,Bangalore,Yes,1
+149,Male,PESIT-BSC,CSE,Bangalore,Yes,2
+150,Male,Dr Ambedkar Institute of Technology,CSE,Bangalore,Yes,2
+151,Male,Dr Ambedkar Institute of Technology,CSE,Bangalore,Yes,2
+152,Male,Dr Ambedkar Institute of Technology,CSE,Bangalore,Yes,2
+153,Female,PESCE Mandya,ISE,Mandya,Yes,3
+154,Female,PACE Mangalore,ISE,Mangalore,Yes,2
+155,Female,GEC Hassan,CSE,Hassan,Yes,3
+156,Female,RNSIT,ISE,Bangalore,No,3
+157,Male,BMSIT,CSE,Bangalore,Yes,2
+158,Female,RLJIT,CSE,Bangalore,No,3
+159,Female,PESCE Mandya,CSE,Mandya,Yes,3
+160,Female,PESCE Mandya,CSE,Mandya,Yes,3
+161,Female,RLJIT,CSE,Bangalore,No,3
+162,Male,Dayananda Sagar College Of Engineering,ISE,Bangalore,Yes,2
+163,Male,PESIT-BSC,ECE,Bangalore,Yes,1
+164,Female,RLJIT,CSE,Bangalore,No,3
+165,Female,RLJIT,CSE,Bangalore,No,3
+166,Female,RLJIT,CSE,Bangalore,No,3
+167,Female,Bmsit,CSE,Bangalore,Yes,2
+168,Male,Dayananda Sagar College Of Engineering,ISE,Bangalore,Yes,2
+169,Female,bmsit,CSE,Bangalore,Yes,2
+170,Female,SJBIT,CSE,Bangalore,Yes,2
+171,Male,Atria Institute of Technology,CSE,Bangalore,No,4
+172,Female,MSRIT,EEE,Bangalore,No,2
+173,Male,MSRIT,CSE,Bangalore,No,2
+174,Male,MSRIT,CSE,Bangalore,No,3
+175,Male,"Sri Jayachamarajendra College of Engineering, Mysore",CSE,Mysore,No,3
+176,Female,bmsit,TCE,Bangalore,Yes,3
+177,Female,JVIT,CSE,Bangalore,Yes,4
+178,Female,JVIT,CSE,Bangalore,Yes,4
